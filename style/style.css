@@ -1,0 +1,65 @@
+/*varáveis de cores*/
+:root{
+    --bg-body: #131416;
+    --color-font:#ffff;
+    --color-button: #0772EB;
+    --color-card: #1E212C;
+}
+
+.container{
+    max-width: 830px;
+    margin: auto; /*centraliza os itens*/
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-body);
+}
+
+header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.logo h2{
+    color: var(--color-font);
+}
+
+.logo img{
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+}
+
+.section-1{
+    display: flex;
+    margin-top: 100px;
+    
+}
+
+.ebook img{
+    width: 230px;
+    height: auto;
+    margin-right: 50px;
+}
+
+.action-title h2{
+    font-size: 43px;
+    color: var(--color-font);
+}
+
+.button{
+    color: var(--color-font);
+    display: inline-block;
+    padding: 15px 70px;
+    background-color: var(--color-button);
+    text-decoration: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
