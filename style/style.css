@@ -105,3 +105,33 @@ header .logo{
     width: 65px;
     height: 65px;
 }
+
+.section-3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.button-2{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #1E212C;
+    color: var(--color-font);
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.section-3 h2{
+    font-size: 48px;
+    color: var(--color-button);
+    margin-top: 10px;
+}
+
+.section-3 p{
+    color: var(--color-font);
+    margin-top: -25px;
+}
