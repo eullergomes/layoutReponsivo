@@ -63,3 +63,45 @@ header .logo{
     font-weight: bold;
 }
 
+.button:hover{
+    opacity: 0.8;
+}
+
+.section-2{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+
+.section-2 h2{
+    color: var(--color-font);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-card);
+    width: 220px;
+    height: 180px;
+    border-radius: 10px;
+    color: var(--color-font);
+}
+
+.card img{
+    width: 65px;
+    height: 65px;
+}
